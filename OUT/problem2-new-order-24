@@ -1,0 +1,46 @@
+>> Richardson_Extrapolation
+Domain=[0,2]x[0,1]; (nx,ny)=(32,32)
+  order=2; problem=2; omega=1.9; tol=1e-14; itmax=10000
+--------------------------------------------------
+  (nx,ny)=(  8,  8); iter=46; (L2,L8)-error = (0.123 , 0.299)
+  (nx,ny)=( 16, 16); iter=96; (L2,L8)-error = (0.0293 , 0.0713)
+  (nx,ny)=( 32, 32); iter=163; (L2,L8)-error = (0.00724 , 0.0176)
+--------------------------------------------------
+ CR-4: (nx,ny)=( 16, 16); L8-error= 0.0108
+ CR-4: (nx,ny)=( 32, 32); L8-error= 0.000767
+                    Their L8-error Ratio = 14.108
+ Recursive: CR-6 (nx,ny)=( 32, 32); L8-error= 0.000986
+--------------------------------------------------
+ RE: Coarse Grid Error on Omega(4h,2h) = (0.00474, 0.000285)
+--------------------------------------------------
+ Extrapol first, spline (nx,ny)=( 16, 16); L8-error= 0.0113
+ Extrapol first, spline (nx,ny)=( 32, 32); L8-error= 0.000285
+                    Their L8-error Ratio = 39.516
+--------------------------------------------------
+ Xta-Accuracy: spline interpol (nx,ny)=( 32, 32); L8-error= 0.000546
+       @ interoir points, with margin = 4; L8-error= 0.000228
+
+
+
+>> Richardson_Extrapolation
+Domain=[0,2]x[0,1]; (nx,ny)=(64,64)
+  order=2; problem=2; omega=1.9; tol=1e-14; itmax=10000
+--------------------------------------------------
+  (nx,ny)=( 16, 16); iter=322; (L2,L8)-error = (0.0293 , 0.0713)
+  (nx,ny)=( 32, 32); iter=289; (L2,L8)-error = (0.00724 , 0.0176)
+  (nx,ny)=( 64, 64); iter=384; (L2,L8)-error = (0.0018 , 0.00439)
+--------------------------------------------------
+ CR-4: (nx,ny)=( 32, 32); L8-error= 0.000767
+ CR-4: (nx,ny)=( 64, 64); L8-error= 4.93e-05
+                    Their L8-error Ratio = 15.542
+ Recursive: CR-6 (nx,ny)=( 64, 64); L8-error= 6.73e-05
+--------------------------------------------------
+ RE: Coarse Grid Error on Omega(4h,2h) = (0.000285, 1.77e-05)
+--------------------------------------------------
+ Extrapol first, spline (nx,ny)=( 32, 32); L8-error= 0.000285
+ Extrapol first, spline (nx,ny)=( 64, 64); L8-error= 1.77e-05
+                    Their L8-error Ratio = 16.152
+--------------------------------------------------
+ Xta-Accuracy: spline interpol (nx,ny)=( 64, 64); L8-error= 6.54e-06
+       @ interoir points, with margin = 4; L8-error= 2.73e-06
+>> 
