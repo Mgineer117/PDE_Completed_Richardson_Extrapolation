@@ -19,6 +19,7 @@ examples are given to confirm the claim.
 The algorithm was developed by Mr. Minjae Cho, with valuable advice from Dr. Seongjai Kim. During the algorithm's development, various pre-existing algorithms, including **Completed Richardson extrapolation**, **Operator-based iterative interpolation**, and **Multiple coarse grid extrapolation**, were thoroughly investigated. **Through careful analysis, it was determined that Completed Richardson, which employs the average value for higher-order correction, outperformed the other algorithms in terms of both simplicity and efficiency.** **Additionally, several interpolation techniques were suggested, resulting in noticeable performance improvements.** For a more comprehensive understanding, we recommend readers to refer to our article.
 
 
-# Copyright: I hereby release the entire grant of license, allowing individuals to freely use the algorithm.
+# Copyright: 
+I hereby release the entire grant of license, allowing individuals to freely use the algorithm.
 # Last Update: 06/27/2023
 
