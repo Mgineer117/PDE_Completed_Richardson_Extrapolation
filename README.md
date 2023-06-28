@@ -21,5 +21,8 @@ The algorithm was developed by Mr. Minjae Cho, with valuable advice from Dr. Seo
 
 # Copyright: 
 I hereby release the entire grant of license, allowing individuals to freely use the algorithm.
+
+# Note:
+NM means Neumann Boundary condition which assumes the first derivative equal to 0 on the boundary.
 # Last Update: 06/27/2023
 
